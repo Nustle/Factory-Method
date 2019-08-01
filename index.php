@@ -1,9 +1,12 @@
 <?php
 
-include_once 'Categories\Virtual.php';
-include_once 'Categories\Volume.php';
-include_once 'Categories\Weighted.php';
+use Categories\Virtual;
+use Categories\Volume;
+use Categories\Weighted;
 
+function __autoload ($classname) {
+  include_once __DIR__ . DIRECTORY_SEPARATOR . str_replace('\\', DIRECTORY_SEPARATOR, $classname) . '.php';
+}
 
 $virtual = new Virtual();
 $virtual->getCategory();
