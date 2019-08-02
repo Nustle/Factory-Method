@@ -9,9 +9,7 @@ class VirtualCategory implements AddRunnable
   public function AddData()
   {
     /**
-     * Code
-     * Скорее всего вызываешь свой метод AddData ($this->AddData),
-     * но тогда наследуешь его, что не есть гуд, как вариант сделать его статическим 
+     * Your code of method AddData
      */
     echo 'Создалась VirtualCategory - метод Data <br>';
   }
@@ -19,8 +17,7 @@ class VirtualCategory implements AddRunnable
   public function AddField()
   {
     /**
-     * Code
-     * Всё по аналогии с методом AddData
+     * Your code of method AddField
      */
     echo 'Создалась VirtualCategory - метод Field <hr>';
   }

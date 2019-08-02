@@ -9,7 +9,7 @@ class VolumeCategory implements AddRunnable
   public function AddData()
   {
     /**
-     * Code
+     * Your code of method AddData
      */
     echo 'Создалась VolumeCategory - метод Data <br>';
   }
@@ -17,7 +17,7 @@ class VolumeCategory implements AddRunnable
   public function AddField()
   {
     /**
-     * Code
+     * Your code of method AddField
      */
     echo 'Создалась VolumeCategory - метод Field <hr>';
   }

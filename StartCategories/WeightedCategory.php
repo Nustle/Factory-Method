@@ -9,7 +9,7 @@ class WeightedCategory implements AddRunnable
   public function AddData()
   {
     /**
-     * Code
+     * Your code of method AddData
      */
     echo 'Создалась WeightedCategory - метод Data <br>';
   }
@@ -17,7 +17,7 @@ class WeightedCategory implements AddRunnable
   public function AddField()
   {
     /**
-     * Code
+     * Your code of method AddField
      */
     echo 'Создалась WeightedCategory - метод Field <hr>';
   }
